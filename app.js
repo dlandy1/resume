@@ -31,7 +31,7 @@ var opener =function() {
 	$('.img').show(1000)
 	$('.bod').show(1200);
 	});
-		$('#b').on("click",function(){
+		$('#b, .b').on("click",function(){
     $('.img').hide();
     $('.bod').hide();
      $( "#one" ).animate({
@@ -86,7 +86,7 @@ var apples =function() {
   $('html,body').animate({ scrollTop: $('#b').offset().top }, 'slow');
 	});
 		})
-  $('#a').on("click",function(){
+  $('#a, .a').on("click",function(){
     $('.proj').hide();
      $( "#two" ).animate({
       marginBottom: "0px",
