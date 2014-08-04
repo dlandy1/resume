@@ -246,6 +246,13 @@ footer a{
 	background-color: rgba(0, 0, 0, 0.06);
 	border-radius: 5px;
 }
+.foot{
+	font-family: "helveticaNeue-light";
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
 @keyframes animate_bg {
     0%   {color: red;}
     10%  {color:orange;}

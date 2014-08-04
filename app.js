@@ -6,7 +6,7 @@ $(document).ready(function(){
 	apples();
 });
 var opener =function() {
-	$('#abou').on("click", function(){
+	$('#abou, .a').on("click", function(){
 		$('html,body').animate({ scrollTop: $('#a').offset().top }, 'slow');
 	$('#one-subj').fadeOut(1000);
     $( "#abou" ).animate({
@@ -60,7 +60,7 @@ var opener =function() {
 };
 
 var apples =function() {
-	$('#port').on("click", function(){
+	$('#port, .b').on("click", function(){
 	$('#two-subj').fadeOut(1000);
     $( "#port" ).animate({
     width: "98%",
